@@ -1,4 +1,4 @@
-add_namespace = rt.event.resource
+add_namespace = rt.event.points
 
 #############################################
 #												#
@@ -20,5 +20,6 @@ country_event = {}
 
 # 添加政治點
 country_event = {}
+
 
 

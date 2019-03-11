@@ -32,6 +32,8 @@
   addrs_cp_idea:0 "添加指揮點"
   addrs_st_idea:0 "添加穩定度"
   addrs_ws_idea:0 "添加戰爭支持度"
+  addrs_thread_idea:0 "添加世界紧张度"
+
   addrs_army_ex_idea:0 "添加陸軍經驗點"
   addrs_navy_ex_idea:0 "添加海軍經驗點"
   addrs_air_ex_idea:0 "添加空軍經驗點"
