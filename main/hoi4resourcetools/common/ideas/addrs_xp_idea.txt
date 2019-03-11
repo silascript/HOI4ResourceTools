@@ -1,0 +1,42 @@
+ideas = {
+	
+	# 添加三軍經驗
+	addrs_xp_ideas = {
+
+		# 添加陸軍經驗	army_experience
+		addrs_army_ex_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		}	# addrs_army_ex_idea
+
+		# 添加海軍經驗	navy_experience
+		addrs_navy_ex_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		} # addrs_navy_ex_idea
+
+
+		# 添加空軍經驗	air_experience
+		addrs_air_ex_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		} # addrs_air_ex_idea
+
+
+		# 添加三軍經驗
+		addrs_xp_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		}	# addrs_xp_idea
+	}
+
+
+}

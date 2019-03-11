@@ -1,0 +1,53 @@
+ideas = {
+	
+	# 添加各种點數	
+	addrs_points_ideas = {
+
+		# 添加人力
+		addrs_manpower_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		}	# addrs_manpower_idea
+
+		# 添加政治點
+		addrs_polit_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		}	# addrs_polit_idea
+
+		# 添加指揮點
+		addrs_cp_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		}	# addrs_cp_idea
+
+
+		# 添加穩定度
+		addrs_st_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		}	# addrs_st_idea
+
+		# 添加戰爭支持度
+		addrs_ws_idea = {
+			# picture = 
+			on_add = {
+				# country_event = rt.event.resource.
+			}
+		}	# addrs_ws_idea
+
+		
+
+
+	}	# addrs_points_ideas
+
+
+}

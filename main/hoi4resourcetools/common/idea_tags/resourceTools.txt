@@ -10,10 +10,13 @@ idea_categories = {
 		slot = addrs_fuel_ideas 
 		# 添加各種點數
 		# 人力 指揮點 穩定點 戰爭支持 政治點
-		slot = addrs_point_ideas
+		slot = addrs_points_ideas
 
 		# 添加科研槽
 		slot = addrs_reslot_ideas
+
+		# 添加三軍經驗
+		slot = addrs_xp_ideas
 
 		# 人力
 		#slot = addrs_manpower_ideas

@@ -9,8 +9,10 @@
   # idea組
   addrs_rs_ideas:0 "添加鋼鋁橡膠等資源"
   addrs_fuel_ideas:0 "添加燃油"
-  addrs_point_ideas:0 "添加名種點"
+  addrs_points_ideas:0 "添加名種點"
   addrs_reslot_ideas:0 "添加科研槽"
+  addrs_xp_ideas:0 "添加三軍經驗點"
+
 
   # idea項
   addrs_fuel_idea:0 "添加燃油"
@@ -22,6 +24,18 @@
   addrs_tungsten_idea:0 "添加鎢"
   addrs_chromium_idea:0 "添加鉻"
   addrs_allrs_idea:0 "添加所有資源"
+
+  addrs_fuel_idea:0 "添加科研槽"
+
+  addrs_manpower_idea:0 "添加人力"
+  addrs_polit_idea:0 "添加政治點"
+  addrs_cp_idea:0 "添加指揮點"
+  addrs_st_idea:0 "添加穩定度"
+  addrs_ws_idea:0 "添加戰爭支持度"
+  addrs_army_ex_idea:0 "添加陸軍經驗點"
+  addrs_navy_ex_idea:0 "添加海軍經驗點"
+  addrs_air_ex_idea:0 "添加空軍經驗點"
+  addrs_xp_idea:0 "添加三軍經驗點"
 
 
   #

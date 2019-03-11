@@ -1,0 +1,16 @@
+ideas = {
+	
+	# 添加科研槽
+	addrs_reslot_ideas = {
+
+		# 添加科研槽
+		addrs_fuel_idea ={
+			# picture = 
+			on_add = {
+				# country_event = 
+			}
+		}
+		
+	}	# addrs_reslot_ideas
+
+}
