@@ -5,3 +5,136 @@ add_namespace = rt.event.xp
 #				添加三軍經驗						#
 #												#
 #############################################
+
+# 增加陸軍經驗
+# 受當前經驗最大值所限
+country_event = {
+	id = rt.event.xp.11200
+	title = rt.event.xp.11200.t
+	desc = rt.event.xp.11200.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除陸軍經驗idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_army_ex_idea 
+		}
+	}
+
+	# 增加1000陸軍經驗
+	option = {
+		name = rt.event.xp.11200.a
+		army_experience = 1000
+	}
+
+	# 增加5000陸軍經驗
+	option = {
+		name = rt.event.xp.11200.b
+		army_experience = 5000
+	}
+
+	# 增加10000陸軍經驗
+	option = {
+		name = rt.event.xp.11200.c
+		army_experience = 10000
+	}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}	
+
+}	# 增加陸軍經驗
+
+
+# 增加海軍經驗
+country_event = {
+	id = rt.event.xp.11201
+	title = rt.event.xp.11201.t
+	desc = rt.event.xp.11201.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除海軍經驗idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_navy_ex_idea 
+		}
+	}
+
+	option = {}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}	
+
+
+}	# 增加海軍經驗
+
+# 增加空軍經驗
+country_event = {
+	id = rt.event.xp.11202
+	title = rt.event.xp.11202.t
+	desc = rt.event.xp.11202.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除空軍經驗idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_air_ex_idea 
+		}
+	}
+
+	option = {}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}		
+
+}	# 增加空軍經驗
+
+
+
+# 增加三軍經驗
+country_event = {
+	id = rt.event.xp.11203
+	title = rt.event.xp.11203.t
+	desc = rt.event.xp.11203.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除三軍經驗idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_xp_idea 
+		}
+	}
+
+	option = {}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}		
+
+}	# 增加三軍經驗

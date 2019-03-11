@@ -7,7 +7,7 @@ ideas = {
 		addrs_army_ex_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.xp.
+				country_event = rt.event.xp.11200
 			}
 		}	# addrs_army_ex_idea
 
@@ -15,7 +15,7 @@ ideas = {
 		addrs_navy_ex_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.xp.
+				country_event = rt.event.xp.11201
 			}
 		} # addrs_navy_ex_idea
 
@@ -24,7 +24,7 @@ ideas = {
 		addrs_air_ex_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.xp.
+				country_event = rt.event.xp.11202
 			}
 		} # addrs_air_ex_idea
 
@@ -33,7 +33,7 @@ ideas = {
 		addrs_xp_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.xp.
+				country_event = rt.event.xp.11203
 			}
 		}	# addrs_xp_idea
 	}
