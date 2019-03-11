@@ -1,0 +1,16 @@
+ideas = {
+	
+	# 添加燃油
+	addrs_fuel_ideas = {
+
+		addrs_fuel_idea = {
+			# picture = 
+			on_add = {
+				country_event = rt.event.resource.11110
+			}
+		}
+
+
+	}	
+
+}

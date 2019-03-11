@@ -1,0 +1,28 @@
+idea_categories = {
+	
+	addResource_Idea = {
+
+		# 资源
+		# 钢 铝 橡胶 石油 钨 铬
+		slot = addrs_rs_ideas
+
+		# 燃油
+		slot = addrs_fuel_ideas 
+		# 人力
+		slot = addrs_manpower_ideas
+		# 指挥点
+		slot = addrs_cp_ideas		
+		# 稳定点
+		slot = addrs_st_ideas
+		# 战争支持
+		slot = addrs_ws_ideas
+		# 政治点
+		slot = addrs_polit_ideas
+
+
+		cost = 0
+		removal_cost = 0
+
+	}
+
+}

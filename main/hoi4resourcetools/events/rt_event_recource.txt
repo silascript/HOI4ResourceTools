@@ -1,0 +1,305 @@
+add_namespace = rt.event.resource
+
+#############################################
+#												#
+#				添加资源							#
+#												#
+#############################################
+
+# 添加钢铝橡胶钨铬资源
+
+# 添加钢
+country_event = {
+	
+	id = rt.event.resource.11100
+	title = rt.event.resource.11100.t
+	desc = rt.event.resource.11100.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除钢idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_steel_idea 
+		}
+	}
+
+	# 添加
+	# 全国随机地区添加钢
+	option = {
+
+		random_list = {
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 2 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 3 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 5 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 6 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 8 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 10 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 12 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 15 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 18 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = steel  amount = 20 }
+				}
+			}
+
+
+		}	#random_list
+	}	#option
+
+	# 全国所有地区添加随机数量的钢
+	option = {
+		random_list = {}
+	}
+
+	# 全国所有地区添加10钢
+	option = {
+		
+	}
+
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+# 添加石油
+country_event = {
+	
+	id = rt.event.resource.11101
+	title = rt.event.resource.11101.t
+	desc = rt.event.resource.11101.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除石油idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_oil_idea 
+		}
+	}
+
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+
+# 添加铝
+country_event = {
+	
+	id = rt.event.resource.11102
+	title = rt.event.resource.11102.t
+	desc = rt.event.resource.11102.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除添加铝idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_aluminium_idea 
+		}
+	}
+
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+# 添加橡胶
+country_event = {
+	
+	id = rt.event.resource.11103
+	title = rt.event.resource.11103.t
+	desc = rt.event.resource.11103.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除橡胶idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_rubber_idea 
+		}
+	}
+
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+# 添加钨
+country_event = {
+	
+	id = rt.event.resource.11104
+	title = rt.event.resource.11104.t
+	desc = rt.event.resource.11104.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除钨idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_tungsten_idea 
+		}
+	}
+
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+# 添加铬
+country_event = {
+	
+	id = rt.event.resource.11105
+	title = rt.event.resource.11105.t
+	desc = rt.event.resource.11105.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除铬idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_tungsten_idea 
+		}
+	}
+
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+# 添加钢等所有资源
+country_event = {
+	
+	id = rt.event.resource.11106
+	title = rt.event.resource.11106.t
+	desc = rt.event.resource.11106.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_allrs_idea 
+		}
+	}
+
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+
+# 添加燃油
+country_event = {
+	
+	id = rt.event.resource.11110
+	title = rt.event.resource.11110.t
+	desc = rt.event.resource.11110.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除idea
+	#关闭
+	option = {
+		name = rt.event.common.b
+	}
+
+}
+
+
+
+
