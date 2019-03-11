@@ -45,12 +45,12 @@ ideas = {
 				country_event = rt.event.points.11304
 			}
 		}	# addrs_polit_idea
-		
+
 		# 添加世界紧张度
 		addrs_thread_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.points.
+				country_event = rt.event.points.11305
 			}
 		}	# addrs_thread_idea
 		

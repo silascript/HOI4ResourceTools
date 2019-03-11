@@ -235,7 +235,7 @@ country_event = {
 }	# 添加政治點
 
 
-# 添加世界緊張度
+# 增加或減少世界緊張度
 country_event = {
 	
 	id = rt.event.points.11305
@@ -248,17 +248,31 @@ country_event = {
 		is_ai = no
 	}
 
-	option = {
-		name = rt.event.points.11305.a
-		
-	}
-
 	#移除世界緊張度idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_thread_idea 
 		}
 	}
+
+	# 增加10的緊張度
+	option = {
+		name = rt.event.points.11305.a
+		add_named_threat = { threat = 10 }
+	}
+
+	# 增加30的緊張度
+	option = {
+		name = rt.event.points.11305.b
+		add_named_threat = { threat = 30 }
+	}
+
+	# 減少10的緊張度
+	option = {
+		name = rt.event.points.11305.c
+		add_named_threat = { threat= -10 } 
+	}
+
 
 	#關閉
 	option = {
