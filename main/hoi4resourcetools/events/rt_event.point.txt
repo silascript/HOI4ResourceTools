@@ -1,0 +1,24 @@
+add_namespace = rt.event.resource
+
+#############################################
+#												#
+#				添加各種點數						#
+#												#
+#############################################
+
+# 添加人力
+country_event = {}
+
+# 添加指揮點
+country_event = {}
+
+# 添加穩定點
+country_event = {}
+
+# 添加戰爭支持
+country_event = {}
+
+# 添加政治點
+country_event = {}
+
+

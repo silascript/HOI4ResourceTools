@@ -1,18 +1,42 @@
 ﻿l_english:
 
 
-  ######################idea######################
+  ##########################idea##########################
+  #
+  #  #####################標題#####################
+  # idea欄
+  addResource_Idea:0 "添加資源"
+  # idea組
+  addrs_rs_ideas:0 "添加鋼鋁橡膠等資源"
+  addrs_fuel_ideas:0 "添加燃油"
+  addrs_point_ideas:0 "添加名種點"
+  addrs_reslot_ideas:0 "添加科研槽"
+
+  # idea項
+  addrs_fuel_idea:0 "添加燃油"
+
+  addrs_steel_idea:0 "添加鋼"
+  addrs_oil_idea:0 "添加石油"
+  addrs_aluminium_idea:0 "添加鋁"
+  addrs_rubber_idea:0 "添加橡膠"
+  addrs_tungsten_idea:0 "添加鎢"
+  addrs_chromium_idea:0 "添加鉻"
+  addrs_allrs_idea:0 "添加所有資源"
+
+
   #
   #
+  ##########################event##########################
   #
+  ####################資源####################
   #
-  #
-  #######################event######################
-  #
+  rt.event.resource.11100.t:0 "添加鋼"
+
+
   
 
-  ##事件通用按钮文本
-  rt.event.common.a:0 "确定"
-  rt.event.common.b:0 "关闭"
-  rt.event.common.c:0 "上一页"
-  rt.event.common.d:0 "下一页"
+  ##事件通用按鈕文本
+  rt.event.common.a:0 "確定"
+  rt.event.common.b:0 "關閉"
+  rt.event.common.c:0 "上一頁"
+  rt.event.common.d:0 "下一頁"

@@ -2,22 +2,29 @@ idea_categories = {
 	
 	addResource_Idea = {
 
-		# 资源
-		# 钢 铝 橡胶 石油 钨 铬
+		# 資源
+		# 鋼 鋁 橡膠 石油 鎢 鉻
 		slot = addrs_rs_ideas
 
 		# 燃油
 		slot = addrs_fuel_ideas 
+		# 添加各種點數
+		# 人力 指揮點 穩定點 戰爭支持 政治點
+		slot = addrs_point_ideas
+
+		# 添加科研槽
+		slot = addrs_reslot_ideas
+
 		# 人力
-		slot = addrs_manpower_ideas
-		# 指挥点
-		slot = addrs_cp_ideas		
-		# 稳定点
-		slot = addrs_st_ideas
-		# 战争支持
-		slot = addrs_ws_ideas
-		# 政治点
-		slot = addrs_polit_ideas
+		#slot = addrs_manpower_ideas
+		# 指揮點
+		#slot = addrs_cp_ideas		
+		# 穩定點
+		# slot = addrs_st_ideas
+		# 戰爭支持
+		# slot = addrs_ws_ideas
+		# 政治點
+		# slot = addrs_polit_ideas
 
 
 		cost = 0

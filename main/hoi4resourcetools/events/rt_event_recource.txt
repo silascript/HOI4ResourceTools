@@ -2,13 +2,13 @@ add_namespace = rt.event.resource
 
 #############################################
 #												#
-#				添加资源							#
+#				添加資源							#
 #												#
 #############################################
 
-# 添加钢铝橡胶钨铬资源
+# 添加鋼鋁橡膠鎢鉻資源
 
-# 添加钢
+# 添加鋼
 country_event = {
 	
 	id = rt.event.resource.11100
@@ -21,7 +21,7 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除钢idea
+	#移除鋼idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_steel_idea 
@@ -29,7 +29,7 @@ country_event = {
 	}
 
 	# 添加
-	# 全国随机地区添加钢
+	# 全國隨機地區添加鋼
 	option = {
 
 		random_list = {
@@ -98,17 +98,17 @@ country_event = {
 		}	#random_list
 	}	#option
 
-	# 全国所有地区添加随机数量的钢
+	# 全國所有地區添加隨機數量的鋼
 	option = {
 		random_list = {}
 	}
 
-	# 全国所有地区添加10钢
+	# 全國所有地區添加10鋼
 	option = {
 		
 	}
 
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
@@ -135,7 +135,7 @@ country_event = {
 		}
 	}
 
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
@@ -143,7 +143,7 @@ country_event = {
 }
 
 
-# 添加铝
+# 添加鋁
 country_event = {
 	
 	id = rt.event.resource.11102
@@ -156,21 +156,21 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除添加铝idea
+	#移除添加鋁idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_aluminium_idea 
 		}
 	}
 
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
 
 }
 
-# 添加橡胶
+# 添加橡膠
 country_event = {
 	
 	id = rt.event.resource.11103
@@ -183,21 +183,21 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除橡胶idea
+	#移除橡膠idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_rubber_idea 
 		}
 	}
 
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
 
 }
 
-# 添加钨
+# 添加鎢
 country_event = {
 	
 	id = rt.event.resource.11104
@@ -210,21 +210,21 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除钨idea
+	#移除鎢idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_tungsten_idea 
 		}
 	}
 
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
 
 }
 
-# 添加铬
+# 添加鉻
 country_event = {
 	
 	id = rt.event.resource.11105
@@ -237,21 +237,21 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除铬idea
+	#移除鉻idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_tungsten_idea 
 		}
 	}
 
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
 
 }
 
-# 添加钢等所有资源
+# 添加鋼等所有資源
 country_event = {
 	
 	id = rt.event.resource.11106
@@ -271,7 +271,7 @@ country_event = {
 		}
 	}
 
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
@@ -293,7 +293,7 @@ country_event = {
 	}
 
 	#移除idea
-	#关闭
+	#關閉
 	option = {
 		name = rt.event.common.b
 	}
