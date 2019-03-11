@@ -67,11 +67,24 @@
 
   # 穩定度
   rt.event.points.11302.t:0 "增加穩定度"
-  rt.event.points.11302.d:0 "增加穩定度"
+  rt.event.points.11302.d:0 "增加穩定度,加到100%就不會再增加了"
   rt.event.points.11302.a:0 "增加10%穩定度"
   rt.event.points.11302.b:0 "增加30%穩定度"
   rt.event.points.11302.c:0 "增加50%穩定度"
+
+  # 戰爭支持度
+  rt.event.points.11303.t:0 "增加戰爭支持度" 
+  rt.event.points.11303.d:0 "增加戰爭支持度,加到100%就不會再增加了" 
+  rt.event.points.11303.a:0 "增加戰爭支持度10%"
+  rt.event.points.11303.b:0 "增加戰爭支持度30%"
+  rt.event.points.11303.c:0 "增加戰爭支持度50%"
   
+  # 政治點
+  rt.event.points.11304.t:0 "增加政治點" 
+  rt.event.points.11304.d:0 "增加政治點" 
+  rt.event.points.11304.a:0 "增加1000政治點"
+  rt.event.points.11304.b:0 "增加5000政治點"
+  rt.event.points.11304.c:0 "增加10000政治點"
 
   
 

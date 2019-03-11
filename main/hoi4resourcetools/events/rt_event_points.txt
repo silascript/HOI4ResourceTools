@@ -145,6 +145,7 @@ country_event = {
 }	# 添加穩定度
 
 # 添加戰爭支持
+# 0~1.0 值爲百分比
 country_event = {
 	id = rt.event.points.11303
 	title = rt.event.points.11303.t
@@ -156,16 +157,29 @@ country_event = {
 		is_ai = no
 	}
 
-	option = {
-		name = rt.event.points.11303.a
-		
-	}
-
 	#移除戰爭支持idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_ws_idea 
 		}
+	}
+
+	# 增加戰爭支持度10%
+	option = {
+		name = rt.event.points.11303.a
+		add_war_support = 0.1
+	}
+
+	# 增加戰爭支持度30%
+	option = {
+		name = rt.event.points.11303.b
+		add_war_support = 0.3
+	}
+
+	# 增加戰爭支持度50%
+	option = {
+		name = rt.event.points.11303.c
+		add_war_support = 0.5
 	}
 
 	#關閉
@@ -187,17 +201,32 @@ country_event = {
 		is_ai = no
 	}
 
-	option = {
-		name = rt.event.points.11304.a
-		
-	}
-
 	#移除政治點idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_polit_idea 
 		}
 	}
+
+	# 增加1000政治點
+	option = {
+		name = rt.event.points.11304.a
+		add_political_power = 1000
+	}
+
+	# 增加5000政治點
+	option = {
+		name = rt.event.points.11304.b
+		add_political_power = 5000
+	}
+
+	# 增加10000政治點
+	option = {
+		name = rt.event.points.11304.c
+		add_political_power = 10000
+	}
+
+	
 
 	#關閉
 	option = {
