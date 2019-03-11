@@ -7,7 +7,7 @@
   # idea欄
   addResource_Idea:0 "添加資源"
   # idea組
-  addrs_rs_ideas:0 "添加鋼鋁橡膠等資源"
+  addrs_rs_ideas:0 "添加各种資源"
   addrs_fuel_ideas:0 "添加燃油"
   addrs_points_ideas:0 "添加名種點"
   addrs_reslot_ideas:0 "添加科研槽"
@@ -25,7 +25,7 @@
   addrs_chromium_idea:0 "添加鉻"
   addrs_allrs_idea:0 "添加所有資源"
 
-  addrs_fuel_idea:0 "添加科研槽"
+  addrs_reslot_idea:0 "添加科研槽"
 
   addrs_manpower_idea:0 "添加人力"
   addrs_polit_idea:0 "添加政治點"

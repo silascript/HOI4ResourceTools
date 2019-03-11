@@ -4,7 +4,7 @@ ideas = {
 	addrs_reslot_ideas = {
 
 		# 添加科研槽
-		addrs_fuel_idea ={
+		addrs_reslot_idea ={
 			# picture = 
 			on_add = {
 				# country_event = 
