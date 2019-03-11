@@ -7,19 +7,235 @@ add_namespace = rt.event.points
 #############################################
 
 # 添加人力
-country_event = {}
+country_event = {
+	
+	id = rt.event.points.11300
+	title = rt.event.points.11300.t
+	desc = rt.event.points.11300.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除人力idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_manpower_idea 
+		}
+	}
+
+	option = {
+		name = rt.event.points.11300.a
+		add_manpower = 100000
+	}
+
+	option = {
+		name = rt.event.points.11300.b
+		add_manpower = 500000
+	}
+
+	option = {
+		name = rt.event.points.11300.c
+		add_manpower = 1000000
+	}
+
+	#移除人力idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_manpower_idea 
+		}
+	}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+
+}	# 添加人力
 
 # 添加指揮點
-country_event = {}
+# 此項受指揮點最大上限制約
+country_event = {
+	
+	id = rt.event.points.11301
+	title = rt.event.points.11301.t
+	desc = rt.event.points.11301.d
 
-# 添加穩定點
-country_event = {}
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除指揮點idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_cp_idea 
+		}
+	}
+
+	option = {
+		name = rt.event.points.11301.a
+		add_command_power = 100	
+	}
+
+	option = {
+		name = rt.event.points.11301.b
+		add_command_power = 1000	
+	}
+
+	option = {
+		name = rt.event.points.11301.c
+		add_command_power = 10000	
+	}
+
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+
+}	# 添加指揮點
+
+# 添加穩定度
+# 0~1.0 值爲百分比
+country_event = {
+	id = rt.event.points.11302
+	title = rt.event.points.11302.t
+	desc = rt.event.points.11302.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除穩定度idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_st_idea 
+		}
+	}
+
+	# 增加10%的穩定度
+	option = {
+		name = rt.event.points.11302.a
+		add_stability = 0.1		
+	}
+
+	# 增加30%的穩定度
+	option = {
+		name = rt.event.points.11302.b
+		add_stability = 0.3	
+	}
+
+	# 增加50%的穩定度
+	option = {
+		name = rt.event.points.11302.c
+		add_stability = 0.5	
+	}
+
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+}	# 添加穩定度
 
 # 添加戰爭支持
-country_event = {}
+country_event = {
+	id = rt.event.points.11303
+	title = rt.event.points.11303.t
+	desc = rt.event.points.11303.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	option = {
+		name = rt.event.points.11303.a
+		
+	}
+
+	#移除戰爭支持idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_ws_idea 
+		}
+	}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+}	# 添加戰爭支持
 
 # 添加政治點
-country_event = {}
+country_event = {
+	
+	id = rt.event.points.11304
+	title = rt.event.points.11304.t
+	desc = rt.event.points.11304.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	option = {
+		name = rt.event.points.11304.a
+		
+	}
+
+	#移除政治點idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_polit_idea 
+		}
+	}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+}	# 添加政治點
+
+
+# 添加世界緊張度
+country_event = {
+	
+	id = rt.event.points.11305
+	title = rt.event.points.11305.t
+	desc = rt.event.points.11305.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	option = {
+		name = rt.event.points.11305.a
+		
+	}
+
+	#移除世界緊張度idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_thread_idea 
+		}
+	}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+}
 
 
 

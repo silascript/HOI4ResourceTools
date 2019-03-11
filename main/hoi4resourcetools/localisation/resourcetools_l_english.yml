@@ -49,6 +49,30 @@
   rt.event.resource.11100.t:0 "添加鋼"
 
 
+  ####################各種點數####################
+  # 人力
+  rt.event.points.11300.t:0 "添加人力"
+  rt.event.points.11300.d:0 "添加人力"
+  rt.event.points.11300.a:0 "添加10萬人力"
+  rt.event.points.11300.b:0 "添加50萬人力"
+  rt.event.points.11300.c:0 "添加100萬人力"
+
+  # 指揮點
+  rt.event.points.11301.t:0 "添加指揮點"
+  rt.event.points.11301.d:0 "指揮點有上限限制"
+  rt.event.points.11301.a:0 "添加100指揮點"
+  rt.event.points.11301.b:0 "添加1000指揮點"
+  rt.event.points.11301.c:0 "添加10000指揮點"
+
+
+  # 穩定度
+  rt.event.points.11302.t:0 "增加穩定度"
+  rt.event.points.11302.d:0 "增加穩定度"
+  rt.event.points.11302.a:0 "增加10%穩定度"
+  rt.event.points.11302.b:0 "增加30%穩定度"
+  rt.event.points.11302.c:0 "增加50%穩定度"
+  
+
   
 
   ##事件通用按鈕文本

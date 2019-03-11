@@ -7,23 +7,17 @@ ideas = {
 		addrs_manpower_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.points.
+				country_event = rt.event.points.11300
 			}
 		}	# addrs_manpower_idea
 
-		# 添加政治點
-		addrs_polit_idea = {
-			# picture = 
-			on_add = {
-				# country_event = rt.event.points.
-			}
-		}	# addrs_polit_idea
+		
 
 		# 添加指揮點
 		addrs_cp_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.points.
+				country_event = rt.event.points.11301
 			}
 		}	# addrs_cp_idea
 
@@ -32,7 +26,7 @@ ideas = {
 		addrs_st_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.points.
+				country_event = rt.event.points.11302
 			}
 		}	# addrs_st_idea
 
@@ -40,10 +34,18 @@ ideas = {
 		addrs_ws_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.points.
+				country_event = rt.event.points.11303
 			}
 		}	# addrs_ws_idea
 
+		# 添加政治點
+		addrs_polit_idea = {
+			# picture = 
+			on_add = {
+				country_event = rt.event.points.11304
+			}
+		}	# addrs_polit_idea
+		
 		# 添加世界紧张度
 		addrs_thread_idea = {
 			# picture = 
