@@ -27,7 +27,7 @@ ideas = {
 			}
 		}
 
-		# 增加橡胶 rubber
+		# 增加橡膠 rubber
 		addrs_rubber_idea = {
 			# picture = 
 			on_add = {
@@ -35,15 +35,15 @@ ideas = {
 			}
 		}
 
-		# 增加钨 tungsten
+		# 增加鎢 tungsten
 		addrs_tungsten_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.resource.11104
+				country_event = rt.event.resource.11104
 			}
 		}
 
-		# 增加铬chromium
+		# 增加鉻 chromium
 		addrs_chromium_idea = {
 			# picture = 
 			on_add = {
@@ -51,7 +51,7 @@ ideas = {
 			}
 		}
 
-		# 所有资源
+		# 所有資源
 		addrs_allrs_idea = {
 			# picture = 
 			on_add = {

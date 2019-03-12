@@ -74,13 +74,19 @@
   # 橡膠
   rt.event.resource.11103.t:0 "增加橡膠"
   rt.event.resource.11103.d:0 "全國所屬地區增加橡膠"
-  
+
   rt.event.resource.11103.a:0 "隨機地區增加隨機數量橡膠"
   rt.event.resource.11103.b:0 "所有地區增加隨機數量橡膠"
   rt.event.resource.11103.c:0 "所有地區增加10數量橡膠"
 
 
   # 鎢
+  rt.event.resource.11104.t:0 "增加鎢"
+  rt.event.resource.11104.d:0 "全國所屬地區增加鎢"
+  
+  rt.event.resource.11104.a:0 "隨機地區增加隨機數量增加鎢"
+  rt.event.resource.11104.b:0 "所有地區增加隨機數量鎢"
+  rt.event.resource.11104.c:0 "所有地區增加10數量鎢"
 
 
   # 鉻
