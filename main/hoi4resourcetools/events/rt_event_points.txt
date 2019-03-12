@@ -19,36 +19,32 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除人力idea
+	# 移除人力idea
 	immediate = {
 		hidden_effect = { 
 			remove_ideas = addrs_manpower_idea 
 		}
 	}
 
+	# 增加10W人力
 	option = {
 		name = rt.event.points.11300.a
 		add_manpower = 100000
 	}
 
+	# 增加50W人力
 	option = {
 		name = rt.event.points.11300.b
 		add_manpower = 500000
 	}
 
+	# 增加100W人力
 	option = {
 		name = rt.event.points.11300.c
 		add_manpower = 1000000
 	}
 
-	#移除人力idea
-	immediate = {
-		hidden_effect = { 
-			remove_ideas = addrs_manpower_idea 
-		}
-	}
-
-	#關閉
+	# 關閉
 	option = {
 		name = rt.event.common.b
 	}
@@ -76,16 +72,19 @@ country_event = {
 		}
 	}
 
+	# 增加100指揮點
 	option = {
 		name = rt.event.points.11301.a
 		add_command_power = 100	
 	}
 
+	# 增加1000指揮點
 	option = {
 		name = rt.event.points.11301.b
 		add_command_power = 1000	
 	}
 
+	# 增加10000指揮點
 	option = {
 		name = rt.event.points.11301.c
 		add_command_power = 10000	

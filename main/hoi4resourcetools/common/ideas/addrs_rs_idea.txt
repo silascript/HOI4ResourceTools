@@ -1,9 +1,9 @@
 ideas = {
 	
-	# 添加各种资源	
+	# 增加各种资源	
 	addrs_rs_ideas = {
 
-		# 添加钢
+		# 增加钢
 		addrs_steel_idea = {
 			# picture = 
 			on_add = {
@@ -11,7 +11,7 @@ ideas = {
 			}
 		}
 
-		# 添加石油
+		# 增加石油
 		addrs_oil_idea = {
 			# picture = 
 			on_add = {
@@ -19,7 +19,7 @@ ideas = {
 			}
 		}
 
-		# 添加铝
+		# 增加铝
 		addrs_aluminium_idea = {
 			# picture = 
 			on_add = {
@@ -27,7 +27,7 @@ ideas = {
 			}
 		}
 
-		# 橡胶 rubber
+		# 增加橡胶 rubber
 		addrs_rubber_idea = {
 			# picture = 
 			on_add = {
@@ -35,7 +35,7 @@ ideas = {
 			}
 		}
 
-		# 钨 tungsten
+		# 增加钨 tungsten
 		addrs_tungsten_idea = {
 			# picture = 
 			on_add = {
@@ -43,7 +43,7 @@ ideas = {
 			}
 		}
 
-		# 铬chromium
+		# 增加铬chromium
 		addrs_chromium_idea = {
 			# picture = 
 			on_add = {

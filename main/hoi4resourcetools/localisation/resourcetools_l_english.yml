@@ -5,49 +5,70 @@
   #
   #  #####################標題#####################
   # idea欄
-  addResource_Idea:0 "添加資源"
+  addResource_Idea:0 "增加資源"
   # idea組
-  addrs_rs_ideas:0 "添加各种資源"
-  addrs_fuel_ideas:0 "添加燃油"
-  addrs_points_ideas:0 "添加名種點"
+  addrs_rs_ideas:0 "增加各种資源"
+  addrs_fuel_ideas:0 "增加燃油"
+  addrs_points_ideas:0 "增加名種點"
   addrs_reslot_ideas:0 "添加科研槽"
-  addrs_xp_ideas:0 "添加三軍經驗點"
+  addrs_xp_ideas:0 "增加三軍經驗點"
 
 
   # idea項
-  addrs_fuel_idea:0 "添加燃油"
+  addrs_fuel_idea:0 "增加燃油"
 
-  addrs_steel_idea:0 "添加鋼"
-  addrs_oil_idea:0 "添加石油"
-  addrs_aluminium_idea:0 "添加鋁"
-  addrs_rubber_idea:0 "添加橡膠"
-  addrs_tungsten_idea:0 "添加鎢"
-  addrs_chromium_idea:0 "添加鉻"
-  addrs_allrs_idea:0 "添加所有資源"
+  addrs_steel_idea:0 "增加鋼"
+  addrs_oil_idea:0 "增加石油"
+  addrs_aluminium_idea:0 "增加鋁"
+  addrs_rubber_idea:0 "增加橡膠"
+  addrs_tungsten_idea:0 "增加鎢"
+  addrs_chromium_idea:0 "增加鉻"
+  addrs_allrs_idea:0 "增加所有資源"
 
   addrs_reslot_idea:0 "添加科研槽"
 
-  addrs_manpower_idea:0 "添加人力"
-  addrs_polit_idea:0 "添加政治點"
-  addrs_cp_idea:0 "添加指揮點"
-  addrs_st_idea:0 "添加穩定度"
-  addrs_ws_idea:0 "添加戰爭支持度"
-  addrs_thread_idea:0 "添加世界紧张度"
+  addrs_manpower_idea:0 "增加人力"
+  addrs_polit_idea:0 "增加政治點"
+  addrs_cp_idea:0 "增加指揮點"
+  addrs_st_idea:0 "增加穩定度"
+  addrs_ws_idea:0 "增加戰爭支持度"
+  addrs_thread_idea:0 "設置世界紧张度"
 
-  addrs_army_ex_idea:0 "添加陸軍經驗點"
-  addrs_navy_ex_idea:0 "添加海軍經驗點"
-  addrs_air_ex_idea:0 "添加空軍經驗點"
-  addrs_xp_idea:0 "添加三軍經驗點"
+  addrs_army_ex_idea:0 "增加陸軍經驗點"
+  addrs_navy_ex_idea:0 "增加海軍經驗點"
+  addrs_air_ex_idea:0 "增加空軍經驗點"
+  addrs_xp_idea:0 "增加三軍經驗點"
 
 
   #
   #
   ##########################event##########################
   #
-  ####################資源####################
+  ######################資源######################
   # 鋼
-  rt.event.resource.11100.t:0 "添加鋼"
+  rt.event.resource.11100.t:0 "增加鋼"
+  rt.event.resource.11100.d:0 "全國所屬地區增加鋼"
 
+  rt.event.resource.11100.a:0 "隨機地區增加隨機數量鋼"
+  rt.event.resource.11100.b:0 "所有地區增加隨機數量鋼"
+  rt.event.resource.11100.c:0 "所有地區增加10數量鋼"
+
+  # 石油
+  
+
+  # 鋁
+  
+
+  # 橡膠
+
+
+  # 鎢
+
+
+  # 鉻
+  
+
+  # 所有資源
 
 
   # 燃油

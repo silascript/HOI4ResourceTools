@@ -2,13 +2,13 @@ add_namespace = rt.event.resource
 
 #############################################
 #												#
-#				添加資源							#
+#				增加資源							#
 #												#
 #############################################
 
-# 添加鋼鋁橡膠鎢鉻資源
+# 增加鋼鋁橡膠鎢鉻資源
 
-# 添加鋼
+# 增加鋼
 country_event = {
 	
 	id = rt.event.resource.11100
@@ -29,8 +29,9 @@ country_event = {
 	}
 
 	# 添加
-	# 全國隨機地區添加鋼
+	# 全國隨機地區增加隨機數量鋼
 	option = {
+		name = rt.event.resource.11100.a
 
 		random_list = {
 
@@ -100,13 +101,81 @@ country_event = {
 
 	# 全國所有地區添加隨機數量的鋼
 	option = {
-		random_list = {}
-	}
+		name = rt.event.resource.11100.b
+		# 隨機列表
+		# 每項前的數字是機率
+		random_list = {
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = steel
+						amount = 1
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = steel
+						amount = 2
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = steel
+						amount = 3
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = steel
+						amount = 4
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = steel
+						amount = 5
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = steel
+						amount = 6
+					}	
+				}	# every_owned_state
+			}
+
+
+		} # random_list
+
+	}	# 全國所有地區添加隨機數量的鋼
 
 	# 全國所有地區添加10鋼
 	option = {
-		
-	}
+		name = rt.event.resource.11100.c
+		every_owned_state = {
+			add_resource ={
+				type = steel
+				amount = 10
+			}
+
+		}	# every_owned_state
+			
+	} # 全國所有地區添加10鋼
 
 	#關閉
 	option = {
@@ -115,7 +184,7 @@ country_event = {
 
 }
 
-# 添加石油
+# 增加石油
 country_event = {
 	
 	id = rt.event.resource.11101
@@ -143,7 +212,7 @@ country_event = {
 }
 
 
-# 添加鋁
+# 增加鋁
 country_event = {
 	
 	id = rt.event.resource.11102
@@ -170,7 +239,7 @@ country_event = {
 
 }
 
-# 添加橡膠
+# 增加橡膠
 country_event = {
 	
 	id = rt.event.resource.11103
@@ -224,7 +293,7 @@ country_event = {
 
 }
 
-# 添加鉻
+# 增加鉻
 country_event = {
 	
 	id = rt.event.resource.11105
@@ -251,7 +320,7 @@ country_event = {
 
 }
 
-# 添加鋼等所有資源
+# 增加鋼等所有資源
 country_event = {
 	
 	id = rt.event.resource.11106
