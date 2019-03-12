@@ -12,23 +12,11 @@ idea_categories = {
 		# 人力 指揮點 穩定點 戰爭支持 政治點
 		slot = addrs_points_ideas
 
-		# 添加科研槽
-		slot = addrs_reslot_ideas
-
 		# 添加三軍經驗
 		slot = addrs_xp_ideas
 
-		# 人力
-		#slot = addrs_manpower_ideas
-		# 指揮點
-		#slot = addrs_cp_ideas		
-		# 穩定點
-		# slot = addrs_st_ideas
-		# 戰爭支持
-		# slot = addrs_ws_ideas
-		# 政治點
-		# slot = addrs_polit_ideas
-
+		# 添加科研槽
+		slot = addrs_reslot_ideas
 
 		cost = 0
 		removal_cost = 0

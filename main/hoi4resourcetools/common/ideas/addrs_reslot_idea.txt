@@ -3,11 +3,27 @@ ideas = {
 	# 添加科研槽
 	addrs_reslot_ideas = {
 
-		# 添加科研槽
-		addrs_reslot_idea ={
+		# 增加科研槽
+		addrs_reslot_add_idea ={
 			# picture = 
 			on_add = {
-				# country_event = 
+				country_event = rt.event.misc.11400 
+			}
+		}
+
+		# 設置科研槽
+		addrs_reslot_set_idea = {
+			# picture = 
+			on_add = {
+				country_event = rt.event.misc.11401
+			}
+		}
+
+		# 減少科研槽
+		addrs_reslot_sub_idea = {
+			# picture = 
+			on_add = {
+				country_event = rt.event.misc.11402
 			}
 		}
 		

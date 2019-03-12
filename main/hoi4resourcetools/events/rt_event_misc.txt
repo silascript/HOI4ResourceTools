@@ -1,0 +1,137 @@
+add_namespace = rt.event.misc
+
+#############################################
+#												#
+#						杂项						#
+#												#
+#############################################
+
+# 科研槽
+# 增加科研槽
+country_event = {
+	id = rt.event.misc.11400
+	title = rt.event.misc.11400.t
+	desc = rt.event.misc.11400.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	# 移除增加科研槽idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_reslot_add_idea 
+		}
+	}
+
+	# 添加一個科研槽
+	option = {
+		name = rt.event.misc.11400.a
+		add_research_slot = 1
+	}
+
+	# 添加二個科研槽
+	option = {
+		name = rt.event.misc.11400.b
+		add_research_slot = 2
+	}
+
+	# 添加五個科研槽
+	option = {
+		name = rt.event.misc.11400.c
+		add_research_slot = 5
+	}
+
+	# 關閉
+	option = {
+		name = rt.event.common.b
+	}
+
+} # country_event 科研槽
+
+# 設置科研槽
+country_event = {
+	
+	id = rt.event.misc.11401
+	title = rt.event.misc.11401.t
+	desc = rt.event.misc.11401.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	# 移除設置科研槽idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_reslot_set_idea 
+		}
+	}
+
+	# 設置5個科研槽
+	option = {
+		name = rt.event.misc.11401.a
+		set_research_slots = 5
+	}
+
+	# 設置10個科研槽
+	option = {
+		name = rt.event.misc.11401.b
+		set_research_slots = 10
+	}
+
+	# 設置20個科研槽
+	option = {
+		name = rt.event.misc.11401.c
+		set_research_slots = 20
+	}
+
+	# 關閉
+	option = {
+		name = rt.event.common.b
+	}
+
+} # country_event 設置科研槽
+
+# 減少科研槽
+country_event = {
+
+	id = rt.event.misc.11402
+	title = rt.event.misc.11402.t
+	desc = rt.event.misc.11402.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	# 移除減少科研槽idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_reslot_sub_idea 
+		}
+	}
+
+	# 減少1個科研槽
+	option = {
+		name = rt.event.misc.11402.a
+		add_research_slot = -1
+	}
+
+	# 減少2個科研槽
+	option = {
+		name = rt.event.misc.11402.b
+		add_research_slot = -2
+	}
+
+	# 關閉
+	option = {
+		name = rt.event.common.b
+	}
+
+} # country_event 減少科研槽
+

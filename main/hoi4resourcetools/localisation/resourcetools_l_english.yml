@@ -15,8 +15,10 @@
 
 
   # idea項
+  # 燃油
   addrs_fuel_idea:0 "增加燃油"
 
+  # 資源
   addrs_steel_idea:0 "增加鋼"
   addrs_oil_idea:0 "增加石油"
   addrs_aluminium_idea:0 "增加鋁"
@@ -25,8 +27,12 @@
   addrs_chromium_idea:0 "增加鉻"
   addrs_allrs_idea:0 "增加所有資源"
 
-  addrs_reslot_idea:0 "添加科研槽"
+  # 科技槽
+  addrs_reslot_add_idea:0 "增加科研槽"
+  addrs_reslot_set_idea:0 "設置科研槽"
+  addrs_reslot_sub_idea:0 "減少科研槽"
 
+  # 各种點
   addrs_manpower_idea:0 "增加人力"
   addrs_polit_idea:0 "增加政治點"
   addrs_cp_idea:0 "增加指揮點"
@@ -34,6 +40,7 @@
   addrs_ws_idea:0 "增加戰爭支持度"
   addrs_thread_idea:0 "設置世界紧张度"
 
+  # 三軍經驗
   addrs_army_ex_idea:0 "增加陸軍經驗點"
   addrs_navy_ex_idea:0 "增加海軍經驗點"
   addrs_air_ex_idea:0 "增加空軍經驗點"
@@ -186,6 +193,27 @@
   rt.event.points.11305.b:0 "增加30的緊張度"
   rt.event.points.11305.c:0 "減少10的緊張度"
   
+
+  ####################雜項####################
+  # 科研槽
+  rt.event.misc.11400.t:0 "添加科研槽" 
+  rt.event.misc.11400.d:0 "添加科研槽" 
+  rt.event.misc.11400.a:0 "增加1個科研槽"
+  rt.event.misc.11400.b:0 "增加2個科研槽"
+  rt.event.misc.11400.c:0 "增加5個科研槽"
+
+
+  rt.event.misc.11401.t:0 "設置科研槽"
+  rt.event.misc.11401.d:0 "設置科研槽"
+  rt.event.misc.11401.a:0 "設置5科研槽"
+  rt.event.misc.11401.b:0 "設置10科研槽"
+  rt.event.misc.11401.c:0 "設置20科研槽"
+
+
+  rt.event.misc.11402.t:0 "減少科研槽"
+  rt.event.misc.11402.d:0 "減少科研槽"
+  rt.event.misc.11402.a:0 "減少1個科研槽"
+  rt.event.misc.11402.b:0 "減少2個科研槽"
 
   ####################通用####################
 
