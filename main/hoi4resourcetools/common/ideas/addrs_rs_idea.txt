@@ -15,7 +15,7 @@ ideas = {
 		addrs_oil_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.resource.11101
+				country_event = rt.event.resource.11101
 			}
 		}
 
