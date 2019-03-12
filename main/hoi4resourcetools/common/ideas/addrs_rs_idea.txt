@@ -55,7 +55,7 @@ ideas = {
 		addrs_allrs_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.resource.11106
+				country_event = rt.event.resource.11106
 			}
 		}
 

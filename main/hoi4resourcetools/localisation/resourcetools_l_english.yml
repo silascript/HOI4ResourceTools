@@ -92,13 +92,18 @@
   # 鉻
   rt.event.resource.11105.t:0 "增加鉻"
   rt.event.resource.11105.d:0 "全國所屬地區增加鉻"
-  
+
   rt.event.resource.11105.a:0 "隨機地區增加隨機數量鉻"
   rt.event.resource.11105.b:0 "所有地區增加隨機數量鉻"
   rt.event.resource.11105.c:0 "所有地區增加10數量鉻"
   
 
   # 所有資源
+  rt.event.resource.11106.t:0 "增加所有資源"
+  rt.event.resource.11106.d:0 "全國所屬地區增加所有資源~注意:燃油不是資源"
+  rt.event.resource.11106.a:0 "隨機地區增加隨機數量所有資源"
+  rt.event.resource.11106.b:0 "所有地區增加隨機數量所有資源"
+  rt.event.resource.11106.c:0 "所有地區增加10數量所有資源"
 
 
   # 燃油

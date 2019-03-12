@@ -1079,7 +1079,7 @@ country_event = {
 
 }
 
-# 增加鋼等所有資源
+# 增加所有資源(燃油不算資源)
 country_event = {
 	
 	id = rt.event.resource.11106
@@ -1098,6 +1098,220 @@ country_event = {
 			remove_ideas = addrs_allrs_idea 
 		}
 	}
+
+	# 添加
+	# 全國隨機地區增加隨機數量所有資源
+	option = {
+		name = rt.event.resource.11106.a
+
+		random_list = {
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 2 }
+					add_resource ={ type = oil amount = 2 }
+					add_resource ={ type = aluminium amount = 2 }
+					add_resource ={ type = rubber amount = 2 }
+					add_resource ={ type = tungsten amount = 2 }
+					add_resource ={ type = chromium amount = 2 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 3 }
+					add_resource ={ type = oil amount = 3 }
+					add_resource ={ type = aluminium amount = 3 }
+					add_resource ={ type = rubber amount = 3 }
+					add_resource ={ type = tungsten amount = 3 }
+					add_resource ={ type = chromium amount = 3 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 5 }
+					add_resource ={ type = oil amount = 5 }
+					add_resource ={ type = aluminium amount = 5 }
+					add_resource ={ type = rubber amount = 5 }
+					add_resource ={ type = tungsten amount = 5 }
+					add_resource ={ type = chromium amount = 5 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 6 }
+					add_resource ={ type = oil amount = 6 }
+					add_resource ={ type = aluminium amount = 6 }
+					add_resource ={ type = rubber amount = 6 }
+					add_resource ={ type = tungsten amount = 6 }
+					add_resource ={ type = chromium amount = 6 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 8 }
+					add_resource ={ type = oil amount = 8 }
+					add_resource ={ type = aluminium amount = 8 }
+					add_resource ={ type = rubber amount = 8 }
+					add_resource ={ type = tungsten amount = 8 }
+					add_resource ={ type = chromium amount = 8 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 10 }
+					add_resource ={ type = oil amount = 10 }
+					add_resource ={ type = aluminium amount = 10 }
+					add_resource ={ type = rubber amount = 10 }
+					add_resource ={ type = tungsten amount = 10 }
+					add_resource ={ type = chromium amount = 10 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 12 }
+					add_resource ={ type = oil amount = 12 }
+					add_resource ={ type = aluminium amount = 12 }
+					add_resource ={ type = rubber amount = 12 }
+					add_resource ={ type = tungsten amount = 12 }
+					add_resource ={ type = chromium amount = 12 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 15 }
+					add_resource ={ type = oil amount = 15 }
+					add_resource ={ type = aluminium amount = 15 }
+					add_resource ={ type = rubber amount = 15 }
+					add_resource ={ type = tungsten amount = 15 }
+					add_resource ={ type = chromium amount = 15 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 18 }
+					add_resource ={ type = oil amount = 18 }
+					add_resource ={ type = aluminium amount = 18 }
+					add_resource ={ type = rubber amount = 18 }
+					add_resource ={ type = tungsten amount = 18 }
+					add_resource ={ type = chromium amount = 18 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource ={ type = steel amount = 20 }
+					add_resource ={ type = oil amount = 20 }
+					add_resource ={ type = aluminium amount = 20 }
+					add_resource ={ type = rubber amount = 20 }
+					add_resource ={ type = tungsten amount = 20 }
+					add_resource ={ type = chromium amount = 20 }
+				}
+			}
+
+
+		} # random_list
+
+	} # 全國隨機地區增加隨機數量所有資源
+
+	# 全國所有地區添加隨機數量所有資源
+	option = {
+		name = rt.event.resource.11106.b
+		# 隨機列表
+		# 每項前的數字是機率
+		random_list = {
+			10 = {
+				every_owned_state = {
+					add_resource ={ type = steel amount = 1 }
+					add_resource ={ type = oil amount = 1 }
+					add_resource ={ type = aluminium amount = 1 }
+					add_resource ={ type = rubber amount = 1 }
+					add_resource ={ type = tungsten amount = 1 }
+					add_resource ={ type = chromium amount = 1 }
+				} # every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={ type = steel amount = 2 }
+					add_resource ={ type = oil amount = 2 }
+					add_resource ={ type = aluminium amount = 2 }
+					add_resource ={ type = rubber amount = 2 }
+					add_resource ={ type = tungsten amount = 2 }
+					add_resource ={ type = chromium amount = 2 }	
+				} # every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={ type = steel amount = 3 }
+					add_resource ={ type = oil amount = 3 }
+					add_resource ={ type = aluminium amount = 3 }
+					add_resource ={ type = rubber amount = 3 }
+					add_resource ={ type = tungsten amount = 3 }
+					add_resource ={ type = chromium amount = 3 }	
+				} # every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={ type = steel amount = 4 }
+					add_resource ={ type = oil amount = 4 }
+					add_resource ={ type = aluminium amount = 4 }
+					add_resource ={ type = rubber amount = 4 }
+					add_resource ={ type = tungsten amount = 4 }
+					add_resource ={ type = chromium amount = 4 }	
+				} # every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={ type = steel amount = 5 }
+					add_resource ={ type = oil amount = 5 }
+					add_resource ={ type = aluminium amount = 5 }
+					add_resource ={ type = rubber amount = 5 }
+					add_resource ={ type = tungsten amount = 5 }
+					add_resource ={ type = chromium amount = 5 }		
+				} # every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={ type = steel amount = 6 }
+					add_resource ={ type = oil amount = 6 }
+					add_resource ={ type = aluminium amount = 6 }
+					add_resource ={ type = rubber amount = 6 }
+					add_resource ={ type = tungsten amount = 6 }
+					add_resource ={ type = chromium amount = 6 }	
+				} # every_owned_state
+			}
+
+
+		} # random_list
+
+	} # 全國所有地區添加隨機數量所有資源
+
+	# 全國所有地區添加10所有資源
+	option = {
+		name = rt.event.resource.11106.c
+		every_owned_state = {
+			add_resource ={ type = steel amount = 10 }
+			add_resource ={ type = oil amount = 10 }
+			add_resource ={ type = aluminium amount = 10 }
+			add_resource ={ type = rubber amount = 10 }
+			add_resource ={ type = tungsten amount = 10 }
+			add_resource ={ type = chromium amount = 10 }
+
+		}	# every_owned_state
+			
+	} # 全國所有地區添加10所有資源
 
 	#關閉
 	option = {
