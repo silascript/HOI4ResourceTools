@@ -71,7 +71,23 @@ country_event = {
 		}
 	}
 
-	option = {}
+	# 增加1000海軍經驗
+	option = {
+		name = rt.event.xp.11201.a
+		navy_experience = 1000
+	}
+
+	# 增加5000海軍經驗
+	option = {
+		name = rt.event.xp.11201.b
+		navy_experience = 5000
+	}
+
+	# 增加10000海軍經驗
+	option = {
+		name = rt.event.xp.11201.c
+		navy_experience = 10000
+	}
 
 	#關閉
 	option = {
@@ -100,7 +116,23 @@ country_event = {
 		}
 	}
 
-	option = {}
+	# 增加1000空軍經驗
+	option = {
+		name = rt.event.xp.11202.a
+		air_experience = 1000
+	}
+
+	# 增加5000空軍經驗
+	option = {
+		name = rt.event.xp.11202.b
+		air_experience = 5000
+	}
+
+	# 增加10000空軍經驗
+	option = {
+		name = rt.event.xp.11202.c
+		air_experience = 10000
+	}
 
 	#關閉
 	option = {
