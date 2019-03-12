@@ -58,11 +58,17 @@
   rt.event.resource.11101.d:0 "全國所屬地區增加石油"
 
   rt.event.resource.11101.a:0 "隨機地區增加隨機數量石油"
-  rt.event.resource.11101.b:0 "所有地區增加隨機石油"
+  rt.event.resource.11101.b:0 "所有地區增加隨機數量石油"
   rt.event.resource.11101.c:0 "所有地區增加10數量石油"
   
 
   # 鋁
+  rt.event.resource.11102.t:0 "增加鋁"
+  rt.event.resource.11102.d:0 "全國所屬地區增加鋁"
+
+  rt.event.resource.11102.a:0 "隨機地區增加隨機數量鋁"
+  rt.event.resource.11102.b:0 "所有地區增加隨機數量鋁"
+  rt.event.resource.11102.c:0 "所有地區增加10數量鋁"
   
 
   # 橡膠

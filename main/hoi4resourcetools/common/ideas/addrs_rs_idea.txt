@@ -23,7 +23,7 @@ ideas = {
 		addrs_aluminium_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.resource.11102
+				country_event = rt.event.resource.11102
 			}
 		}
 
