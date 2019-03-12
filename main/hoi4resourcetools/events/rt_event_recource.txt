@@ -560,6 +560,159 @@ country_event = {
 		}
 	}
 
+
+	# 添加
+	# 全國隨機地區增加隨機數量橡膠
+	option = {
+		name = rt.event.resource.11103.a
+
+		random_list = {
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 2 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 3 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 5 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 6 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 8 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 10 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 12 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 15 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 18 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = rubber  amount = 20 }
+				}
+			}
+
+
+		} # random_list
+
+	} # 全國隨機地區增加隨機數量橡膠
+
+	# 全國所有地區添加隨機數量橡膠
+	option = {
+		name = rt.event.resource.11103.b
+		# 隨機列表
+		# 每項前的數字是機率
+		random_list = {
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = rubber
+						amount = 1
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = rubber
+						amount = 2
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = rubber
+						amount = 3
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = rubber
+						amount = 4
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = rubber
+						amount = 5
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = rubber
+						amount = 6
+					}	
+				}	# every_owned_state
+			}
+
+
+		} # random_list
+
+	} # 全國所有地區添加隨機數量橡膠
+
+	# 全國所有地區添加10橡膠
+	option = {
+		name = rt.event.resource.11103.c
+		every_owned_state = {
+			add_resource ={
+				type = rubber
+				amount = 10
+			}
+
+		}	# every_owned_state
+			
+	} # 全國所有地區添加10橡膠
+
+
+
 	#關閉
 	option = {
 		name = rt.event.common.b

@@ -31,7 +31,7 @@ ideas = {
 		addrs_rubber_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.resource.11103
+				country_event = rt.event.resource.11103
 			}
 		}
 
