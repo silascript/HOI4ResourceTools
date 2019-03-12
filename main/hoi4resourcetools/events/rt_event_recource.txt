@@ -279,6 +279,9 @@ country_event = {
 }
 
 
+#########################燃油#########################
+
+
 # 添加燃油
 country_event = {
 	
@@ -292,7 +295,20 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除idea
+	#移除燃油idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas = addrs_fuel_idea 
+		}
+	}
+
+	# 增加100%燃油
+	option = {
+		name = rt.event.resource.11110.a
+		set_fuel_ratio = 1.0
+	}
+
+	
 	#關閉
 	option = {
 		name = rt.event.common.b
