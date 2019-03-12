@@ -162,7 +162,29 @@ country_event = {
 		}
 	}
 
-	option = {}
+	# 增加5000三軍經驗
+	option = {
+		name = rt.event.xp.11203.a
+		army_experience = 5000
+		navy_experience = 5000
+		air_experience = 5000
+	}
+
+	# 增加10000三軍經驗
+	option = {
+		name = rt.event.xp.11203.b
+		army_experience = 10000
+		navy_experience = 10000
+		air_experience = 10000
+	}
+
+	# 增加50000三軍經驗
+	option = {
+		name = rt.event.xp.11203.c
+		army_experience = 50000
+		navy_experience = 50000
+		air_experience = 50000
+	}
 
 	#關閉
 	option = {
