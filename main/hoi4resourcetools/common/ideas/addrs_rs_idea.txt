@@ -47,7 +47,7 @@ ideas = {
 		addrs_chromium_idea = {
 			# picture = 
 			on_add = {
-				# country_event = rt.event.resource.11105
+				country_event = rt.event.resource.11105
 			}
 		}
 

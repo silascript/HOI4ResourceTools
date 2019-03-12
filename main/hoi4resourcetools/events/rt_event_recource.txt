@@ -890,7 +890,7 @@ country_event = {
 		}	# every_owned_state
 			
 	} # 全國所有地區添加10鎢
-	
+
 
 	#關閉
 	option = {
@@ -915,9 +915,162 @@ country_event = {
 	#移除鉻idea
 	immediate = {
 		hidden_effect = { 
-			remove_ideas = addrs_tungsten_idea 
+			remove_ideas = addrs_chromium_idea 
 		}
 	}
+
+
+	# 添加
+	# 全國隨機地區增加隨機數量鉻
+	option = {
+		name = rt.event.resource.11105.a
+
+		random_list = {
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 2 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 3 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 5 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 6 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 8 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 10 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 12 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 15 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 18 }
+				}
+			}
+
+			5= {
+				random_owned_state = {
+					add_resource = { type = chromium  amount = 20 }
+				}
+			}
+
+
+		} # random_list
+
+	} # 全國隨機地區增加隨機數量鉻
+
+	# 全國所有地區添加隨機數量鉻
+	option = {
+		name = rt.event.resource.11105.b
+		# 隨機列表
+		# 每項前的數字是機率
+		random_list = {
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = chromium
+						amount = 1
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = chromium
+						amount = 2
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = chromium
+						amount = 3
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = chromium
+						amount = 4
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = chromium
+						amount = 5
+					}	
+				}	# every_owned_state
+			}
+
+			10 = {
+				every_owned_state = {
+					add_resource ={
+						type = chromium
+						amount = 6
+					}	
+				}	# every_owned_state
+			}
+
+
+		} # random_list
+
+	} # 全國所有地區添加隨機數量鉻
+
+	# 全國所有地區添加10鉻
+	option = {
+		name = rt.event.resource.11105.c
+		every_owned_state = {
+			add_resource ={
+				type = chromium
+				amount = 10
+			}
+
+		}	# every_owned_state
+			
+	} # 全國所有地區添加10鉻
+
+
 
 	#關閉
 	option = {

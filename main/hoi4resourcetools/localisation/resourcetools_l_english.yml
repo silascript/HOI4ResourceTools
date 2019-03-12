@@ -83,13 +83,19 @@
   # 鎢
   rt.event.resource.11104.t:0 "增加鎢"
   rt.event.resource.11104.d:0 "全國所屬地區增加鎢"
-  
-  rt.event.resource.11104.a:0 "隨機地區增加隨機數量增加鎢"
+
+  rt.event.resource.11104.a:0 "隨機地區增加隨機數量鎢"
   rt.event.resource.11104.b:0 "所有地區增加隨機數量鎢"
   rt.event.resource.11104.c:0 "所有地區增加10數量鎢"
 
 
   # 鉻
+  rt.event.resource.11105.t:0 "增加鉻"
+  rt.event.resource.11105.d:0 "全國所屬地區增加鉻"
+  
+  rt.event.resource.11105.a:0 "隨機地區增加隨機數量鉻"
+  rt.event.resource.11105.b:0 "所有地區增加隨機數量鉻"
+  rt.event.resource.11105.c:0 "所有地區增加10數量鉻"
   
 
   # 所有資源
