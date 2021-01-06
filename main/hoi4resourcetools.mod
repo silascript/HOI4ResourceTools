@@ -1,5 +1,5 @@
 ﻿version="4.0"
-name="HOI4ResouceTools"
+name="HOI4 Resouce Tools"
 path="mod/hoi4resourcetools/"
 tags={
 	"Utilities"
