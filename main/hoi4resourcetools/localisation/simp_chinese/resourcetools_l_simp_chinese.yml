@@ -1,0 +1,224 @@
+﻿l_simp_chinese:
+
+
+  ##########################idea##########################
+  #
+  #  #####################標題#####################
+  # idea欄
+  addResource_Idea:0 "增加資源"
+  # idea組
+  addrs_rs_ideas:0 "增加各种資源"
+  addrs_fuel_ideas:0 "增加燃油"
+  addrs_points_ideas:0 "增加名種點"
+  addrs_reslot_ideas:0 "添加科研槽"
+  addrs_xp_ideas:0 "增加三軍經驗點"
+
+
+  # idea項
+  # 燃油
+  addrs_fuel_idea:0 "增加燃油"
+
+  # 資源
+  addrs_steel_idea:0 "增加鋼"
+  addrs_oil_idea:0 "增加石油"
+  addrs_aluminium_idea:0 "增加鋁"
+  addrs_rubber_idea:0 "增加橡膠"
+  addrs_tungsten_idea:0 "增加鎢"
+  addrs_chromium_idea:0 "增加鉻"
+  addrs_allrs_idea:0 "增加所有資源"
+
+  # 科技槽
+  addrs_reslot_add_idea:0 "增加科研槽"
+  addrs_reslot_set_idea:0 "設置科研槽"
+  addrs_reslot_sub_idea:0 "減少科研槽"
+
+  # 各种點
+  addrs_manpower_idea:0 "增加人力"
+  addrs_polit_idea:0 "增加政治點"
+  addrs_cp_idea:0 "增加指揮點"
+  addrs_st_idea:0 "增加穩定度"
+  addrs_ws_idea:0 "增加戰爭支持度"
+  addrs_thread_idea:0 "設置世界紧张度"
+
+  # 三軍經驗
+  addrs_army_ex_idea:0 "增加陸軍經驗點"
+  addrs_navy_ex_idea:0 "增加海軍經驗點"
+  addrs_air_ex_idea:0 "增加空軍經驗點"
+  addrs_xp_idea:0 "增加三軍經驗點"
+
+
+  #
+  #
+  ##########################event##########################
+  #
+  ######################資源######################
+  # 鋼
+  rt.event.resource.11100.t:0 "增加鋼"
+  rt.event.resource.11100.d:0 "全國所屬地區增加鋼"
+
+  rt.event.resource.11100.a:0 "隨機地區增加隨機數量鋼"
+  rt.event.resource.11100.b:0 "所有地區增加隨機數量鋼"
+  rt.event.resource.11100.c:0 "所有地區增加10數量鋼"
+
+  # 石油
+  rt.event.resource.11101.t:0 "增加石油"
+  rt.event.resource.11101.d:0 "全國所屬地區增加石油"
+
+  rt.event.resource.11101.a:0 "隨機地區增加隨機數量石油"
+  rt.event.resource.11101.b:0 "所有地區增加隨機數量石油"
+  rt.event.resource.11101.c:0 "所有地區增加10數量石油"
+  
+
+  # 鋁
+  rt.event.resource.11102.t:0 "增加鋁"
+  rt.event.resource.11102.d:0 "全國所屬地區增加鋁"
+
+  rt.event.resource.11102.a:0 "隨機地區增加隨機數量鋁"
+  rt.event.resource.11102.b:0 "所有地區增加隨機數量鋁"
+  rt.event.resource.11102.c:0 "所有地區增加10數量鋁"
+  
+
+  # 橡膠
+  rt.event.resource.11103.t:0 "增加橡膠"
+  rt.event.resource.11103.d:0 "全國所屬地區增加橡膠"
+
+  rt.event.resource.11103.a:0 "隨機地區增加隨機數量橡膠"
+  rt.event.resource.11103.b:0 "所有地區增加隨機數量橡膠"
+  rt.event.resource.11103.c:0 "所有地區增加10數量橡膠"
+
+
+  # 鎢
+  rt.event.resource.11104.t:0 "增加鎢"
+  rt.event.resource.11104.d:0 "全國所屬地區增加鎢"
+
+  rt.event.resource.11104.a:0 "隨機地區增加隨機數量鎢"
+  rt.event.resource.11104.b:0 "所有地區增加隨機數量鎢"
+  rt.event.resource.11104.c:0 "所有地區增加10數量鎢"
+
+
+  # 鉻
+  rt.event.resource.11105.t:0 "增加鉻"
+  rt.event.resource.11105.d:0 "全國所屬地區增加鉻"
+
+  rt.event.resource.11105.a:0 "隨機地區增加隨機數量鉻"
+  rt.event.resource.11105.b:0 "所有地區增加隨機數量鉻"
+  rt.event.resource.11105.c:0 "所有地區增加10數量鉻"
+  
+
+  # 所有資源
+  rt.event.resource.11106.t:0 "增加所有資源"
+  rt.event.resource.11106.d:0 "全國所屬地區增加所有資源~注意:燃油不是資源"
+  rt.event.resource.11106.a:0 "隨機地區增加隨機數量所有資源"
+  rt.event.resource.11106.b:0 "所有地區增加隨機數量所有資源"
+  rt.event.resource.11106.c:0 "所有地區增加10數量所有資源"
+
+
+  # 燃油
+  rt.event.resource.11110.t:0 "增加燃油"
+  rt.event.resource.11110.d:0 "按比例增加燃油,受儲油庫最大值所限"
+  rt.event.resource.11110.a:0 "加滿燃油"
+
+  ####################三軍經驗####################
+  #
+  # 陸軍經驗
+  rt.event.xp.11200.t:0 "增加陸軍經驗"
+  rt.event.xp.11200.d:0 "增加陸軍經驗"
+  rt.event.xp.11200.a:0 "增加1000陸軍經驗"
+  rt.event.xp.11200.b:0 "增加5000陸軍經驗"
+  rt.event.xp.11200.c:0 "增加10000陸軍經驗"
+  
+  # 海軍經驗
+  rt.event.xp.11201.t:0 "增加海軍經驗"
+  rt.event.xp.11201.d:0 "增加海軍經驗"
+  rt.event.xp.11201.a:0 "增加1000海軍經驗"
+  rt.event.xp.11201.b:0 "增加5000海軍經驗"
+  rt.event.xp.11201.c:0 "增加10000海軍經驗"
+
+  # 空軍經驗
+  rt.event.xp.11202.t:0 "增加空軍經驗"
+  rt.event.xp.11202.d:0 "增加空軍經驗"
+  rt.event.xp.11202.a:0 "增加1000空軍經驗"
+  rt.event.xp.11202.b:0 "增加5000空軍經驗"
+  rt.event.xp.11202.c:0 "增加10000空軍經驗"
+
+  # 三軍經驗
+  rt.event.xp.11203.t:0 "增加三軍經驗"
+  rt.event.xp.11203.d:0 "增加三軍經驗,包括陸、海、空三軍經驗"
+  rt.event.xp.11203.a:0 "增加10000三軍經驗"
+  rt.event.xp.11203.b:0 "增加10000三軍經驗"
+  rt.event.xp.11203.c:0 "增加500000三軍經驗"
+  
+
+  ####################各種點數####################
+  # 人力
+  rt.event.points.11300.t:0 "添加人力"
+  rt.event.points.11300.d:0 "添加人力"
+  rt.event.points.11300.a:0 "添加10萬人力"
+  rt.event.points.11300.b:0 "添加50萬人力"
+  rt.event.points.11300.c:0 "添加100萬人力"
+
+  # 指揮點
+  rt.event.points.11301.t:0 "添加指揮點"
+  rt.event.points.11301.d:0 "指揮點有上限限制"
+  rt.event.points.11301.a:0 "添加100指揮點"
+  rt.event.points.11301.b:0 "添加1000指揮點"
+  rt.event.points.11301.c:0 "添加10000指揮點"
+
+
+  # 穩定度
+  rt.event.points.11302.t:0 "增加穩定度"
+  rt.event.points.11302.d:0 "增加穩定度,加到100%就不會再增加了"
+  rt.event.points.11302.a:0 "增加10%穩定度"
+  rt.event.points.11302.b:0 "增加30%穩定度"
+  rt.event.points.11302.c:0 "增加50%穩定度"
+
+  # 戰爭支持度
+  rt.event.points.11303.t:0 "增加戰爭支持度" 
+  rt.event.points.11303.d:0 "增加戰爭支持度,加到100%就不會再增加了" 
+  rt.event.points.11303.a:0 "增加戰爭支持度10%"
+  rt.event.points.11303.b:0 "增加戰爭支持度30%"
+  rt.event.points.11303.c:0 "增加戰爭支持度50%"
+  
+  # 政治點
+  rt.event.points.11304.t:0 "增加政治點" 
+  rt.event.points.11304.d:0 "增加政治點" 
+  rt.event.points.11304.a:0 "增加1000政治點"
+  rt.event.points.11304.b:0 "增加5000政治點"
+  rt.event.points.11304.c:0 "增加10000政治點"
+
+  # 世界緊張度
+  rt.event.points.11305.t:0 "增加或減少世界緊張度"
+  rt.event.points.11305.d:0 "前兩先項是增加緊張度，第三個選項是減少緊張度，請看清再點選!"
+  rt.event.points.11305.a:0 "增加10的緊張度"
+  rt.event.points.11305.b:0 "增加30的緊張度"
+  rt.event.points.11305.c:0 "減少10的緊張度"
+  
+
+  ####################雜項####################
+  # 科研槽
+  rt.event.misc.11400.t:0 "添加科研槽" 
+  rt.event.misc.11400.d:0 "添加科研槽" 
+  rt.event.misc.11400.a:0 "增加1個科研槽"
+  rt.event.misc.11400.b:0 "增加2個科研槽"
+  rt.event.misc.11400.c:0 "增加5個科研槽"
+
+
+  rt.event.misc.11401.t:0 "設置科研槽"
+  rt.event.misc.11401.d:0 "設置科研槽"
+  rt.event.misc.11401.a:0 "設置5科研槽"
+  rt.event.misc.11401.b:0 "設置10科研槽"
+  rt.event.misc.11401.c:0 "設置20科研槽"
+
+
+  rt.event.misc.11402.t:0 "減少科研槽"
+  rt.event.misc.11402.d:0 "減少科研槽"
+  rt.event.misc.11402.a:0 "減少1個科研槽"
+  rt.event.misc.11402.b:0 "減少2個科研槽"
+
+  ####################通用####################
+
+  ##事件通用按鈕文本
+  rt.event.common.a:0 "確定"
+  rt.event.common.b:0 "關閉"
+  rt.event.common.c:0 "上一頁"
+  rt.event.common.d:0 "下一頁"

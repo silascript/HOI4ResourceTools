@@ -1,4 +1,4 @@
-﻿version="6.0"
+﻿version="7.0"
 name="HOI4 Resouce Tools"
 path="mod/hoi4resourcetools/"
 tags={
