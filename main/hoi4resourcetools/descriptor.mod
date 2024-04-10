@@ -1,6 +1,6 @@
-version="8.0"
+version="9.0"
 tags={
 	"Utilities"
 }
 name="HOI4 Resouce Tools"
-supported_version="1.13.*"
+supported_version="1.14.*"
