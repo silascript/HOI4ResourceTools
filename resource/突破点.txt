@@ -1,0 +1,9 @@
+sp_breakthrough [<number>]
+sp_breakthrough [<number> optional <specialisation>] (sp_br)
+
+为所有实验设施增加特殊项目突破点	例: sp_breakthrough 1
+ex: sp_br 20 specialization_land
+
+Specialization are: specialization_land, specialization_air, specialization_naval, specialization_nuclear (对于mod添加的内容，它在mod内查询 Path\common\special_projects\specialization)
+
+specialization_land, specialization_air, specialization_naval, specialization_nuclear

@@ -1,4 +1,4 @@
-﻿l_english:
+﻿l_simp_chinese:
 
 
   ##########################idea##########################
@@ -10,9 +10,8 @@
   addrs_rs_ideas:0 "增加各种資源"
   addrs_fuel_ideas:0 "增加燃油"
   addrs_points_ideas:0 "增加名種點"
-  addrs_reslot_ideas:0 "添加科研槽"
+  addrs_research_ideas:0 "科研相關"
   addrs_xp_ideas:0 "增加三軍經驗點"
-
 
   # idea項
   # 燃油
@@ -27,10 +26,11 @@
   addrs_chromium_idea:0 "增加鉻"
   addrs_allrs_idea:0 "增加所有資源"
 
-  # 科技槽
+  # 科技相關
   addrs_reslot_add_idea:0 "增加科研槽"
   addrs_reslot_set_idea:0 "設置科研槽"
   addrs_reslot_sub_idea:0 "減少科研槽"
+  addrs_breakthrough_idea:0 "增加突破點"
 
   # 各种點
   addrs_manpower_idea:0 "增加人力"
@@ -195,6 +195,7 @@
   
 
   ####################雜項####################
+  # 科研相關
   # 科研槽
   rt.event.misc.11400.t:0 "添加科研槽" 
   rt.event.misc.11400.d:0 "添加科研槽" 
@@ -214,6 +215,14 @@
   rt.event.misc.11402.d:0 "減少科研槽"
   rt.event.misc.11402.a:0 "減少1個科研槽"
   rt.event.misc.11402.b:0 "減少2個科研槽"
+
+
+  rt.event.misc.11410.t:0 "添加突破點"
+  rt.event.misc.11410.d:0 "添加突破點"
+  rt.event.misc.11410.a:0 "添加1個突破點"
+  rt.event.misc.11410.b:0 "添加5個突破點"
+  rt.event.misc.11410.c:0 "添加10個突破點"
+
 
   ####################通用####################
 

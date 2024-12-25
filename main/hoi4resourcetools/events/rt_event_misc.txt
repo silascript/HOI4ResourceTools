@@ -135,3 +135,50 @@ country_event = {
 
 } # country_event 減少科研槽
 
+
+# 添加突破點
+country_event = {
+	# sp_breakthrough
+	id = rt.event.misc.11410
+	title = rt.event.misc.11410.t
+	desc = rt.event.misc.11410.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除突破點idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas =  addrs_breakthrough_idea
+		}
+	}
+
+	# 增加1個突破點
+	option = {
+		name = rt.event.misc.11410.a
+		sp_breakthrough = 1 
+	}
+
+	# 增加5個突破點
+	option = {
+		name = rt.event.misc.11410.b
+		sp_breakthrough = 5 
+	}
+
+	# 增加10個突破點
+	option = {
+		name = rt.event.misc.11410.c
+		sp_breakthrough = 10 
+	}
+
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+
+
+}

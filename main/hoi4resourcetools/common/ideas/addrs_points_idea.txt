@@ -55,7 +55,6 @@ ideas = {
 		}	# addrs_thread_idea
 		
 
-
 	}	# addrs_points_ideas
 
 

@@ -1,7 +1,7 @@
 ideas = {
 	
-	# 添加科研槽
-	addrs_reslot_ideas = {
+	# 科研相关
+	addrs_research_ideas = {
 
 		# 增加科研槽
 		addrs_reslot_add_idea ={
@@ -27,6 +27,13 @@ ideas = {
 			}
 		}
 		
+		# 添加突破點
+		addrs_breakthrough_idea = {
+			on_add = {
+				country_event = rt.event.misc.11410
+			}
+		} # addrs_breakthrough_idea
+
 	}	# addrs_reslot_ideas
 
 }
