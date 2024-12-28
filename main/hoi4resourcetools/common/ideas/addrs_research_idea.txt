@@ -1,0 +1,73 @@
+ideas = {
+	
+	# 科研相关
+	addrs_research_ideas = {
+
+		# 增加科研槽
+		addrs_reslot_add_idea ={
+			# picture = 
+			on_add = {
+				country_event = rt.event.misc.11400 
+			}
+		}
+
+		# 設置科研槽
+		addrs_reslot_set_idea = {
+			# picture = 
+			on_add = {
+				country_event = rt.event.misc.11401
+			}
+		}
+
+		# 減少科研槽
+		addrs_reslot_sub_idea = {
+			# picture = 
+			on_add = {
+				country_event = rt.event.misc.11402
+			}
+		}
+		
+		# 添加突破點
+		# 添加所有項目突破點
+		addrs_breakthrough_all_idea = {
+			on_add = {
+				country_event = rt.event.misc.11410
+			}
+		} # addrs_breakthrough_idea
+
+		# specialization_land
+		# 添加陸軍項目突破點
+		addrs_breakthrough_land_idea = {
+			on_add = {
+				country_event = rt.event.misc.11411
+			}
+		} # addrs_breakthrough_land_idea
+
+		# specialization_air
+		# 添加空軍項目突破點
+		addrs_breakthrough_air_idea = {
+			on_add = {
+				country_event = rt.event.misc.11412
+			}
+		} # addrs_breakthrough_air_idea
+
+		# specialization_naval
+		# 添加海軍項目突破點
+		addrs_breakthrough_naval_idea = {
+			on_add = {
+				country_event = rt.event.misc.11413
+			}
+		} # addrs_breakthrough_naval_idea
+
+		# specialization_nuclear
+		# 添加核能項目突破點
+		addrs_breakthrough_nuclear_idea = {
+			on_add = {
+				country_event = rt.event.misc.11414
+			}
+		} # addrs_breakthrough_nuclear_idea
+
+
+	}	# addrs_reslot_ideas
+
+}

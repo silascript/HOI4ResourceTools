@@ -49,7 +49,7 @@ country_event = {
 		name = rt.event.common.b
 	}
 
-} # country_event 科研槽
+} # 科研槽
 
 # 設置科研槽
 country_event = {
@@ -94,7 +94,7 @@ country_event = {
 		name = rt.event.common.b
 	}
 
-} # country_event 設置科研槽
+} # 設置科研槽
 
 # 減少科研槽
 country_event = {
@@ -133,12 +133,12 @@ country_event = {
 		name = rt.event.common.b
 	}
 
-} # country_event 減少科研槽
+} # 減少科研槽
 
 
 # 添加突破點
+# 添加所有项目突破點
 country_event = {
-	# sp_breakthrough
 	id = rt.event.misc.11410
 	title = rt.event.misc.11410.t
 	desc = rt.event.misc.11410.d
@@ -149,36 +149,152 @@ country_event = {
 		is_ai = no
 	}
 
-	#移除突破點idea
+	#移除所有突破點idea
 	immediate = {
 		hidden_effect = { 
-			remove_ideas =  addrs_breakthrough_idea
+			remove_ideas =  addrs_breakthrough_all_idea
 		}
 	}
 
 	# 增加1個突破點
 	option = {
 		name = rt.event.misc.11410.a
-		sp_breakthrough = 1 
+		add_breakthrough_points = {
+			specialization = all
+			value = 1
+		}	
 	}
 
 	# 增加5個突破點
 	option = {
 		name = rt.event.misc.11410.b
-		sp_breakthrough = 5 
+		add_breakthrough_points = {
+			specialization = all
+			value = 5
+		}	
 	}
 
 	# 增加10個突破點
 	option = {
 		name = rt.event.misc.11410.c
-		sp_breakthrough = 10 
+		add_breakthrough_points = {
+			specialization = all
+			value = 10 
+		}	
 	}
-
 
 	#關閉
 	option = {
 		name = rt.event.common.b
 	}
 
+} # 添加所有项目突破點
+
+
+# 添加陸軍项目突破點
+country_event = {
+	id = rt.event.misc.11411
+	title = rt.event.misc.11411.t
+	desc = rt.event.misc.11411.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除所有突破點idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas =  addrs_breakthrough_land_idea
+		}
+	}
+
+	# 增加1個突破點
+	option = {
+		name = rt.event.misc.11411.a
+		add_breakthrough_points = {
+			specialization = specialization_land
+			value = 1
+		}	
+	}
+
+	# 增加5個突破點
+	option = {
+		name = rt.event.misc.11411.b
+		add_breakthrough_points = {
+			specialization = specialization_land
+			value = 5
+		}	
+	}
+
+	# 增加10個突破點
+	option = {
+		name = rt.event.misc.11411.c
+		add_breakthrough_points = {
+			specialization = specialization_land
+			value = 10 
+		}	
+	}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
 
 }
+# 添加陸軍项目突破點
+
+
+# 添加空軍项目突破點
+country_event = {
+	id = rt.event.misc.11412
+	title = rt.event.misc.11412.t
+	desc = rt.event.misc.11412.d
+
+	is_triggered_only = yes
+
+	trigger = {
+		is_ai = no
+	}
+
+	#移除所有突破點idea
+	immediate = {
+		hidden_effect = { 
+			remove_ideas =  addrs_breakthrough_air_idea
+		}
+	}
+
+	# 增加1個突破點
+	option = {
+		name = rt.event.misc.11412.a
+		add_breakthrough_points = {
+			specialization = specialization_air
+			value = 1
+		}	
+	}
+
+	# 增加5個突破點
+	option = {
+		name = rt.event.misc.11412.b
+		add_breakthrough_points = {
+			specialization = specialization_air
+			value = 5
+		}	
+	}
+
+	# 增加10個突破點
+	option = {
+		name = rt.event.misc.11412.c
+		add_breakthrough_points = {
+			specialization = specialization_air
+			value = 10 
+		}	
+	}
+
+	#關閉
+	option = {
+		name = rt.event.common.b
+	}
+
+} # 添加空軍项目突破點

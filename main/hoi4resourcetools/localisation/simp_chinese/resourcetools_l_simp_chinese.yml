@@ -30,7 +30,11 @@
   addrs_reslot_add_idea:0 "增加科研槽"
   addrs_reslot_set_idea:0 "設置科研槽"
   addrs_reslot_sub_idea:0 "減少科研槽"
-  addrs_breakthrough_idea:0 "增加突破點"
+  addrs_breakthrough_all_idea:0 "增加所有項目突破點"
+  addrs_breakthrough_land_idea:0 "增加陸軍突破點"
+  addrs_breakthrough_air_idea:0 "增加空軍突破點"
+  addrs_breakthrough_naval_idea:0 "增加海軍突破點"
+  addrs_breakthrough_nuclear_idea:0 "增加核能突破點"
 
   # 各种點
   addrs_manpower_idea:0 "增加人力"
@@ -217,11 +221,36 @@
   rt.event.misc.11402.b:0 "減少2個科研槽"
 
 
-  rt.event.misc.11410.t:0 "添加突破點"
-  rt.event.misc.11410.d:0 "添加突破點"
+  rt.event.misc.11410.t:0 "添加所有项目突破點"
+  rt.event.misc.11410.d:0 "添加所有项目突破點"
   rt.event.misc.11410.a:0 "添加1個突破點"
   rt.event.misc.11410.b:0 "添加5個突破點"
   rt.event.misc.11410.c:0 "添加10個突破點"
+
+  rt.event.misc.11411.t:0 "添加陸軍項目突破點"
+  rt.event.misc.11411.d:0 "添加陸軍項目突破點"
+  rt.event.misc.11411.a:0 "添加1個突破點"
+  rt.event.misc.11411.b:0 "添加5個突破點"
+  rt.event.misc.11411.c:0 "添加10個突破點"
+
+  rt.event.misc.11412.t:0 "添加空軍項目突破點"
+  rt.event.misc.11412.d:0 "添加空軍項目突破點"
+  rt.event.misc.11412.a:0 "添加1個突破點"
+  rt.event.misc.11412.b:0 "添加5個突破點"
+  rt.event.misc.11412.c:0 "添加10個突破點"
+
+
+  rt.event.misc.11413.t:0 "添加海軍項目突破點"
+  rt.event.misc.11413.d:0 "添加海軍項目突破點"
+  rt.event.misc.11413.a:0 "添加1個突破點"
+  rt.event.misc.11413.b:0 "添加5個突破點"
+  rt.event.misc.11413.c:0 "添加10個突破點"
+
+  rt.event.misc.11414.t:0 "添加核能項目突破點"
+  rt.event.misc.11414.d:0 "添加核能項目突破點"
+  rt.event.misc.11414.a:0 "添加1個突破點"
+  rt.event.misc.11414.b:0 "添加5個突破點"
+  rt.event.misc.11414.c:0 "添加10個突破點"
 
 
   ####################通用####################
